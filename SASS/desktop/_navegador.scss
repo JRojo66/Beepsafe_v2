@@ -7,12 +7,12 @@
     .container_header{
         display: flex;
         background-color: #5DFDCB;
-        align-items: center; /*top para tablet/mobile*/
+        align-items: center;
     }
     .item2{
         width:100vw;
     }
-    /* Rellenan el color de fondo del header - PREGUNTAR*/
+    /* Rellenan el color de fondo del header*/
     .navbar{
         padding: 0px;
     }
@@ -62,6 +62,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     background-color: #5DFDCB;
   }

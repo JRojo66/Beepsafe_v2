@@ -6,12 +6,12 @@
     .container_header {
         display: flex;
         background-color: #5DFDCB;
-        align-items: top; /*top para tablet/mobile*/
+        align-items: top;
       }
       .item2 {
         width: 100vw;
       }
-    /* Quita el padding blanco del navegador*/
+    /* Rellenan el color de fondo del header*/
     .navbar{
         padding: 0px;
     }   
