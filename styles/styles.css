@@ -49,12 +49,12 @@ body {
   .container_header {
     display: flex;
     background-color: #5DFDCB;
-    align-items: top; /*top para tablet/mobile*/
+    align-items: top;
   }
   .item2 {
     width: 100vw;
   }
-  /* Quita el padding blanco del navegador*/
+  /* Rellenan el color de fondo del header*/
   .navbar {
     padding: 0px;
   }
@@ -96,9 +96,10 @@ body {
     color: white;
     margin-top: 60%;
   }
-  .p_texto_servicio {
+  .p_texto_servicio_celvert {
     color: black;
-    margin-top: 60%;
+    margin-top: 34%;
+    width: 70vw;
   }
   .p_texto_beneficios1 {
     color: black;
@@ -206,7 +207,7 @@ body {
     justify-content: center;
     gap: 10px;
     position: absolute;
-    bottom: 25vh;
+    bottom: 5vh;
     left: 80vw;
   }
   .redes_layout_beneficios a img {
@@ -294,12 +295,12 @@ body {
   .container_header {
     display: flex;
     background-color: #5DFDCB;
-    align-items: top; /*top para tablet/mobile*/
+    align-items: top;
   }
   .item2 {
     width: 82vw;
   }
-  /* Rellenan el color de fondo del header - PREGUNTAR*/
+  /* Rellenan el color de fondo del header*/
   .navbar {
     padding: 0px;
   }
@@ -586,12 +587,12 @@ body {
   .container_header {
     display: flex;
     background-color: #5DFDCB;
-    align-items: center; /*top para tablet/mobile*/
+    align-items: center;
   }
   .item2 {
     width: 100vw;
   }
-  /* Rellenan el color de fondo del header - PREGUNTAR*/
+  /* Rellenan el color de fondo del header*/
   .navbar {
     padding: 0px;
   }
@@ -640,7 +641,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     background-color: #5DFDCB;
   }
   /*Define el formato de la seccion prinicipal*/
