@@ -559,7 +559,7 @@ body {
   /*Define la imagen de fondo y el tamaño - Establece que no se repita*/
   .inicio_backgroundImage {
     background-image: url(../Imagenes/tablasnavegando.jpg);
-    max-width: 100%;
+    background-size: cover;
   }
   .servicio_backgroundImage {
     background-image: url(../Imagenes/Esquiadorenlamontana.jpg);
@@ -657,6 +657,7 @@ body {
   }
   .p_texto_inicio {
     color: black;
+    background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 600px;
     margin-top: 400px;
