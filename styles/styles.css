@@ -584,7 +584,7 @@ body {
     background-image: url(../Imagenes/rapelconmontana.jpg);
   }
   .iniciarsesion_backgroundImage {
-    background-image: url(../Imagenes/kayakenmar.jpg);
+    background-image: url(../Imagenes/kayakenmar.png);
   }
   .donaciones_backgroundImage {
     background-image: url(../Imagenes/hickerdonacionesenlamontana.png);
@@ -750,7 +750,7 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 35vh;
+    top: 25vh;
     width: 100vw;
   }
   .forminiciarsesion {
