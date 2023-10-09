@@ -11,17 +11,20 @@
         .p_texto_inicio, .p_texto_servicio{
             color: black;
             font-weight: bold;
+            background-color: $color_fondo_letras;
             width: 450px;
             margin-top: 250px;
         }
         .p_texto_sobrenosotros{
             color: black;
             font-weight: bold;
+            background-color: $color_fondo_letras;
             width: 30%;
             margin-top: 28%;
         }
         .p_texto_beneficios1, .p_texto_beneficios2{
             color: white;
+            background-color: $color_fondo_letras;
             width: 60%;
             margin-top: 5%;
             margin-left: 5%;

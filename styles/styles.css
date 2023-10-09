@@ -3,6 +3,7 @@
 /* color beepsafe*/
 /* tamano logos*/
 /* Tipos de letra*/
+/*color de fondo para las letras del texto principal*/
 /* Definiciones comunes para todos los formatos de pantalla*/
 /* Define el tamaño de todas las imagenes de fondo y establece que no se repitan*/
 body {
@@ -10,7 +11,7 @@ body {
   background-size: cover;
 }
 
-/* Define el tipo de letra geneeral para todas las páginas*/
+/* Define el tipo de letra general para todas las páginas*/
 .p_texto {
   font-family: Jura;
   text-align: justify;
@@ -90,23 +91,28 @@ body {
   .p_texto_inicio {
     color: black;
     font-weight: bolder;
+    background-color: rgba(182, 182, 182, 0.4);
     margin-top: 60%;
   }
   .p_texto_sobrenosotros {
     color: white;
+    background-color: rgba(182, 182, 182, 0.4);
     margin-top: 60%;
   }
   .p_texto_servicio_celvert {
     color: white;
+    background-color: rgba(182, 182, 182, 0.4);
     margin-top: 34%;
     width: 70vw;
   }
   .p_texto_beneficios1 {
     color: black;
+    background-color: rgba(182, 182, 182, 0.4);
     margin-top: 40%;
   }
   .p_texto_beneficios2 {
     color: white;
+    background-color: rgba(182, 182, 182, 0.4);
     margin-top: 40%;
   }
   .p_texto_donaciones {
@@ -368,17 +374,20 @@ body {
   .p_texto_inicio, .p_texto_servicio {
     color: black;
     font-weight: bold;
+    background-color: rgba(182, 182, 182, 0.4);
     width: 450px;
     margin-top: 250px;
   }
   .p_texto_sobrenosotros {
     color: black;
     font-weight: bold;
+    background-color: rgba(182, 182, 182, 0.4);
     width: 30%;
     margin-top: 28%;
   }
   .p_texto_beneficios1, .p_texto_beneficios2 {
     color: white;
+    background-color: rgba(182, 182, 182, 0.4);
     width: 60%;
     margin-top: 5%;
     margin-left: 5%;
@@ -665,6 +674,7 @@ body {
   }
   .p_texto_servicio {
     color: black;
+    background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 600px;
     margin-top: 400px;
@@ -672,6 +682,7 @@ body {
   }
   .p_texto_sobrenosotros {
     color: black;
+    background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 20%;
     margin-top: 24%;
@@ -679,6 +690,7 @@ body {
   }
   .p_texto_beneficios1, .p_texto_beneficios2 {
     color: white;
+    background-color: rgba(182, 182, 182, 0.4);
     width: 40%;
     margin-top: 5%;
     margin-left: 5%;
@@ -718,6 +730,7 @@ body {
     font-size: 20px;
     border: none;
     margin: 30px;
+    max-width: 50vw;
   }
   /* Define el formato del boton de enviar de los formularios de las paginas contactanos e iniciar sesión*/
   .boton, .boton_iniciarsesion {

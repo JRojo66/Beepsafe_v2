@@ -10,24 +10,29 @@
     .p_texto_inicio{
         color: black;
         font-weight: bolder;
+        background-color: $color_fondo_letras;
         margin-top: 60%;
     }
     .p_texto_sobrenosotros{
         color: white;
+        background-color: $color_fondo_letras;
         margin-top: 60%;
     }
     .p_texto_servicio_celvert{
         color: white;
+        background-color: $color_fondo_letras;
         margin-top: 34%;
         width: 70vw;
     }
 
     .p_texto_beneficios1{
         color:black;
+        background-color: $color_fondo_letras;
         margin-top: 40%;
     }
     .p_texto_beneficios2{
         color:white;
+        background-color: $color_fondo_letras;
         margin-top: 40%;
     }
     .p_texto_donaciones{
