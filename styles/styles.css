@@ -486,7 +486,7 @@ body {
     justify-content: center;
     gap: 20px;
     position: absolute;
-    bottom: 30%;
+    bottom: 15%;
     left: 75%;
   }
   .redes_layout_beneficios a img {
@@ -588,7 +588,7 @@ body {
   .container_header {
     display: flex;
     background-color: #5DFDCB;
-    align-items: center; /*top para tablet/mobile*/
+    align-items: center;
   }
   .item2 {
     width: 100vw;
@@ -609,17 +609,17 @@ body {
     text-decoration: none;
   }
   /* Define el formato del botón Iniciar Sesion*/
-  .nav-link__iniciar_sesion {
+  .nav-link_iniciar_sesion {
     font-family: Jura;
     color: #5DFDCB;
     background-color: black;
-    font-size: 20px;
+    font-size: auto;
     text-decoration: none;
     margin-top: 31px;
     padding: 11px 18px 15px 18px;
     border-radius: 12%;
   }
-  .nav-link__iniciar_sesion_gris {
+  .nav-link_iniciar_sesion_gris {
     font-family: Jura;
     color: #5DFDCB;
     background-color: grey;

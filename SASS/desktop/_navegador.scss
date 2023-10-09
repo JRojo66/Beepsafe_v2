@@ -1,14 +1,14 @@
 
     /* Define el tamaño del logo en el header */
     .logo{
-        max-width: 121px;
-        max-height: 121px;
+        max-width: $tamano_logo_desktop;
+        max-height: $tamano_logo_desktop;
     }
     
     .container_header{
         display: flex;
-        background-color: #5DFDCB;
-        align-items: center; /*top para tablet/mobile*/
+        background-color: $color_beepsafe;
+        align-items: center; 
     }
     .item2{
         width:100vw;
@@ -23,26 +23,26 @@
     }
     /* Define el formato de los botones del navegador*/
     .nav-link {
-        font-family: Jura;
+        font-family: $font_general;
         font-weight: bold;
         font-size: auto;
         color: black;
         text-decoration: none;
     }
     /* Define el formato del botón Iniciar Sesion*/
-    .nav-link__iniciar_sesion {
-        font-family: Jura;
-        color: #5DFDCB;
+    .nav-link_iniciar_sesion {
+        font-family: $font_general;
+        color: $color_beepsafe;
         background-color: black;
-        font-size: 20px;
+        font-size: auto;
         text-decoration: none;
         margin-top: 31px;
         padding: 11px 18px 15px 18px;
         border-radius: 12%;
     }
-    .nav-link__iniciar_sesion_gris {
-        font-family: Jura;
-        color: #5DFDCB;
+    .nav-link_iniciar_sesion_gris {
+        font-family: $font_general;
+        color: $color_beepsafe;
         background-color: grey;
         font-size: 20px;
         text-decoration: none;
@@ -55,7 +55,7 @@
         position: absolute;
         right: 0px;
         top: 0;
-        background-color: #5DFDCB;
+        background-color: $color_beepsafe;
         
     }
     /* Define la disposición de los elementos del menú de navegación*/
@@ -65,6 +65,6 @@
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        background-color: #5DFDCB;
+        background-color:$color_beepsafe;
       }
     
