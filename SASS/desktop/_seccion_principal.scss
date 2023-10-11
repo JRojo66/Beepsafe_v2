@@ -1,6 +1,15 @@
     /*Define el formato de la seccion prinicipal*/
+    /* Define el formato del texto BIENVENIDOS*/
+    .titulo{
+        font-family: $font_texto_inicio;
+        font-size: 17vw;
+        margin-left: -4vw;
+        color: $color_beepsafe;
+        overflow: hidden;
+    }
+    /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
     .texto{
-        height: 25h;
+        height: 25vh;
         }
             /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
             .p_texto{
@@ -12,8 +21,8 @@
                 color: black;
                 background-color: $color_fondo_letras;
                 font-weight: bold;
-                width: 600px;
-                margin-top: 400px;;
+                width: 35vw;
+                margin-top: 10vh;
                 margin-left: 50px;
             }
             .p_texto_servicio{

@@ -11,6 +11,7 @@ $tamano_logo_donaciones_tabletydesktop_heigth:283px;
 /* Tipos de letra*/
 $font_contactanos_inicio_sesion: 'Poppins', sans-serif;
 $font_general: Jura;
+$font_texto_inicio: Paytone One;
 /*color de fondo para las letras del texto principal*/
 $color_fondo_letras: rgb(182, 182, 182, 0.4);
 
@@ -20,6 +21,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Define el tipo de letra general para todas las páginas*/
 .p_texto{
     font-family: Jura;

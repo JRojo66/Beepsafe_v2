@@ -273,7 +273,7 @@ body {
 @media only screen and (min-width: 500px) and (max-width: 991px) {
   /* Define el alto de la sección media */
   .inicio_backgroundImage {
-    background-image: url(../Imagenes/tablasnavegando.jpg);
+    background-image: url(../Imagenes/tablasnavegandosintexto.jpg);
   }
   .servicio_backgroundImage {
     background-image: url(../Imagenes/Esquiadorenlamontana.jpg);
@@ -361,8 +361,18 @@ body {
     padding: 11px 18px 15px 18px;
     border-radius: 12%;
   }
+  /*Define el formato de la seccion prinicipal*/
+  /* Define el formato del texto BIENVENIDOS*/
+  .titulo {
+    font-family: paytone one;
+    font-size: 17vw;
+    margin-left: -4vw;
+    color: #5DFDCB;
+    overflow: hidden;
+  }
+  /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
   .texto {
-    height: 500px;
+    height: 60vh;
   }
   /* Define el tipo, color, tamaño, alineamiento, altura y posición del texto de cada página*/
   .p_texto {
@@ -376,7 +386,7 @@ body {
     font-weight: bold;
     background-color: rgba(182, 182, 182, 0.4);
     width: 450px;
-    margin-top: 250px;
+    margin-top: 10vh;
   }
   .p_texto_sobrenosotros {
     color: black;
@@ -482,11 +492,11 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 3vh;
   }
   .redes_layout a img {
     width: 40px;
     height: 40px;
-    margin-bottom: 3%;
   }
   /* Define la distribucion de los iconos de las redes - Posiciona en la página de beneficios*/
   .redes_layout_beneficios {
@@ -567,7 +577,7 @@ body {
 @media only screen and (min-width: 992px) {
   /*Define la imagen de fondo y el tamaño - Establece que no se repita*/
   .inicio_backgroundImage {
-    background-image: url(../Imagenes/tablasnavegando.jpg);
+    background-image: url(../Imagenes/tablasnavegandosintexto.jpg);
     background-size: cover;
   }
   .servicio_backgroundImage {
@@ -655,8 +665,17 @@ body {
     background-color: #5DFDCB;
   }
   /*Define el formato de la seccion prinicipal*/
+  /* Define el formato del texto BIENVENIDOS*/
+  .titulo {
+    font-family: Paytone One;
+    font-size: 17vw;
+    margin-left: -4vw;
+    color: #5DFDCB;
+    overflow: hidden;
+  }
+  /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
   .texto {
-    height: 25h;
+    height: 25vh;
   }
   /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
   .p_texto {
@@ -668,8 +687,8 @@ body {
     color: black;
     background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
-    width: 600px;
-    margin-top: 400px;
+    width: 35vw;
+    margin-top: 10vh;
     margin-left: 50px;
   }
   .p_texto_servicio {
@@ -784,7 +803,7 @@ body {
   .redes_layout a img {
     width: 40px;
     height: 40px;
-    margin: 0 20px;
+    margin: 3vh 20px;
   }
   /* Define el color de fondo del footer de donaciones y lo que queda de pantalla por debajo*/
   .redes_layout_donaciones {
