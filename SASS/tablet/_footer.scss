@@ -1,15 +1,14 @@
-    /*Define la distribucion, el tamaño de los iconos de redes, la separación y el alto del footer*/
-    .redes_layout{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 30px;
-        margin-bottom: 3vh;
-        a img{
-            @include size(40px, 40px);
-
-        }
+/*Define la distribucion, el tamaño de los iconos de redes, la separación y el alto del footer*/
+.redes_layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+    a img{
+        @include size(40px, 40px);
+        margin: 5vh 20px;
     }
+}
     /* Define la distribucion de los iconos de las redes - Posiciona en la página de beneficios*/
     .redes_layout_beneficios{
         display: flex;
@@ -24,17 +23,6 @@
             margin: 0 20px;
         }
     }
-/*Define la distribucion, el tamaño de los iconos de redes, la separación y el alto del footer*/
-.redes_layout{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0px;
-    a img{
-        @include size(40px, 40px);
-        margin: 0 20px;
-    }
-}
 /* Define el color de fondo del footer de donaciones y lo que queda de pantalla por debajo*/
 .redes_layout_donaciones{
     display: flex;

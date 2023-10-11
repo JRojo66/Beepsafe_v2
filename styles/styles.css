@@ -367,7 +367,7 @@ body {
   /*Define el formato de la seccion prinicipal*/
   /* Define el formato del texto BIENVENIDOS*/
   .titulo {
-    font-family: paytone one;
+    font-family: Paytone One;
     font-size: 17vw;
     margin-left: -4vw;
     color: #5DFDCB;
@@ -375,21 +375,27 @@ body {
   }
   /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
   .texto {
-    height: 60vh;
+    height: 25vh;
   }
-  /* Define el tipo, color, tamaño, alineamiento, altura y posición del texto de cada página*/
+  /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
   .p_texto {
     font-size: 20px;
     font-family: Jura;
     text-align: justify;
-    margin-left: 50px;
   }
-  .p_texto_inicio, .p_texto_servicio {
+  .p_texto_inicio {
     color: black;
     font-weight: bold;
     background-color: rgba(182, 182, 182, 0.4);
     width: 450px;
-    margin-top: 10vh;
+    margin-top: 0vh;
+  }
+  .p_texto_servicio {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(182, 182, 182, 0.4);
+    width: 450px;
+    margin-top: 0vh;
   }
   .p_texto_sobrenosotros {
     color: black;
@@ -494,12 +500,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 3vh;
+    gap: 0px;
   }
   .redes_layout a img {
     width: 40px;
     height: 40px;
+    margin: 5vh 20px;
   }
   /* Define la distribucion de los iconos de las redes - Posiciona en la página de beneficios*/
   .redes_layout_beneficios {
@@ -512,18 +518,6 @@ body {
     left: 90%;
   }
   .redes_layout_beneficios a img {
-    width: 40px;
-    height: 40px;
-    margin: 0 20px;
-  }
-  /*Define la distribucion, el tamaño de los iconos de redes, la separación y el alto del footer*/
-  .redes_layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0px;
-  }
-  .redes_layout a img {
     width: 40px;
     height: 40px;
     margin: 0 20px;
@@ -690,8 +684,8 @@ body {
     color: black;
     background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
-    width: 35vw;
-    margin-top: 10vh;
+    width: 50vw;
+    margin-top: 0vh;
     margin-left: 50px;
   }
   .p_texto_servicio {
@@ -806,7 +800,7 @@ body {
   .redes_layout a img {
     width: 40px;
     height: 40px;
-    margin: 3vh 20px;
+    margin: 5vh 20px;
   }
   /* Define el color de fondo del footer de donaciones y lo que queda de pantalla por debajo*/
   .redes_layout_donaciones {
