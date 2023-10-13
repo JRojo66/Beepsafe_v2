@@ -202,7 +202,7 @@ body {
     position: absolute;
     width: 50vh;
     gap: 0px;
-    bottom: 2vh;
+    bottom: 5vh;
   }
   .redes_layout a img {
     width: 25px;
@@ -276,7 +276,7 @@ body {
 @media only screen and (min-width: 500px) and (max-width: 991px) {
   /* Define el alto de la sección media */
   .inicio_backgroundImage {
-    background-image: url(../Imagenes/tablasnavegandosintexto.jpg);
+    background-image: url(../Imagenes/tablasnavegando.jpg);
   }
   .servicio_backgroundImage {
     background-image: url(../Imagenes/Esquiadorenlamontana.jpg);
@@ -373,10 +373,6 @@ body {
     color: #5DFDCB;
     overflow: hidden;
   }
-  /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
-  .texto {
-    height: 25vh;
-  }
   /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
   .p_texto {
     font-size: 20px;
@@ -387,15 +383,17 @@ body {
     color: black;
     font-weight: bold;
     background-color: rgba(182, 182, 182, 0.4);
-    width: 450px;
-    margin-top: 0vh;
+    width: 50vw;
+    margin-top: 40vh;
+    margin-left: 5vh;
   }
   .p_texto_servicio {
     color: black;
     font-weight: bold;
     background-color: rgba(182, 182, 182, 0.4);
-    width: 450px;
-    margin-top: 0vh;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 25vh;
   }
   .p_texto_sobrenosotros {
     color: black;
@@ -507,6 +505,18 @@ body {
     height: 40px;
     margin: 5vh 20px;
   }
+  /*Define la distribucion, el tamaño de los iconos de redes, la separación y el alto del footer*/
+  .redes_layout_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+  }
+  .redes_layout_servicios a img {
+    width: 40px;
+    height: 40px;
+    margin: 5vh 20px;
+  }
   /* Define la distribucion de los iconos de las redes - Posiciona en la página de beneficios*/
   .redes_layout_beneficios {
     display: flex;
@@ -514,7 +524,7 @@ body {
     justify-content: center;
     gap: 20px;
     position: absolute;
-    bottom: 5%;
+    bottom: 45vh;
     left: 90%;
   }
   .redes_layout_beneficios a img {
@@ -574,7 +584,7 @@ body {
 @media only screen and (min-width: 992px) {
   /*Define la imagen de fondo y el tamaño - Establece que no se repita*/
   .inicio_backgroundImage {
-    background-image: url(../Imagenes/tablasnavegandosintexto.jpg);
+    background-image: url(../Imagenes/tablasnavegando.jpg);
     background-size: cover;
   }
   .servicio_backgroundImage {
@@ -670,10 +680,6 @@ body {
     color: #5DFDCB;
     overflow: hidden;
   }
-  /* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
-  .texto {
-    height: 25vh;
-  }
   /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
   .p_texto {
     font-size: 20px;
@@ -685,7 +691,7 @@ body {
     background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 50vw;
-    margin-top: 0vh;
+    margin-top: 40vh;
     margin-left: 50px;
   }
   .p_texto_servicio {
@@ -693,7 +699,7 @@ body {
     background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 600px;
-    margin-top: 400px;
+    margin-top: 40vh;
     margin-left: 50px;
   }
   .p_texto_sobrenosotros {
@@ -701,7 +707,7 @@ body {
     background-color: rgba(182, 182, 182, 0.4);
     font-weight: bold;
     width: 20%;
-    margin-top: 24%;
+    margin-top: 30vh;
     margin-left: 50px;
   }
   .p_texto_beneficios1, .p_texto_beneficios2 {
@@ -728,7 +734,7 @@ body {
     background-color: white;
     border-radius: 24px;
     border: none;
-    width: 717px;
+    width: 55vw;
     height: 500px;
     margin-left: 103px;
     margin-top: 16%;
@@ -800,6 +806,17 @@ body {
   .redes_layout a img {
     width: 40px;
     height: 40px;
+    margin: 2vh 20px;
+  }
+  .redes_layout_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+  }
+  .redes_layout_servicios a img {
+    width: 40px;
+    height: 40px;
     margin: 7vh 20px;
   }
   /* Define el color de fondo del footer de donaciones y lo que queda de pantalla por debajo*/
@@ -823,7 +840,7 @@ body {
     justify-content: center;
     gap: 20px;
     position: absolute;
-    bottom: 20%;
+    bottom: 30vh;
     right: 2vw;
   }
   .redes_layout_beneficios a img {

@@ -7,10 +7,6 @@
     color: $color_beepsafe;
     overflow: hidden;
 }
-/* Define el largo de la caja que contiene al texto, y por lo tanto, el largo del fondo de pantalla*/
-.texto{
-    height: 25vh;
-}
     /* Define el tipo, color, tamaño, alineamiento y posición del texto*/
     .p_texto{
         font-size: 20px;
@@ -21,15 +17,17 @@
         color: black;
         font-weight: bold;
         background-color: $color_fondo_letras;
-        width: 450px;
-        margin-top: 0vh;
+        width: 50vw;
+        margin-top: 40vh;
+        margin-left: 5vh;
     }
     .p_texto_servicio{
         color: black;
         font-weight: bold;
         background-color: $color_fondo_letras;
-        width: 450px;
-        margin-top: 0vh;
+        width: 40vw;
+        margin-left: 5vw;
+        margin-top: 25vh;
     }
     .p_texto_sobrenosotros{
         color: black;
